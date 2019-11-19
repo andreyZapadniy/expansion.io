@@ -1,0 +1,45 @@
+{
+    "dialogId": "testSkype",
+    "userId": "epDihmzcQpjS",
+    "parents": [{
+        "_id": "ZwjytpacftdF",
+        "firstName": "Надия",
+        "lastName": "Васильева",
+        "contacts": [{
+                "type": "phone",
+                "val": "11111",
+                "preferred": false
+            },
+            {
+                "type": "whatsapp",
+                "val": "22222",
+                "preferred": false
+            },
+            {
+                "type": "c2d",
+                "val": "'https://web.chat2desk.com/chat/all?dialogID=123456",
+                "preferred": true
+            }
+        ],
+        "country": "Нидерланды",
+        "city": "Остерхоут",
+        "tz": "GMT+01:00",
+        "roles": ["parent"],
+        "familyId": "47RjDJbxhBuQ"
+    }],
+    "childs": [{
+        " _id": "epDihmzcQpjS",
+        "firstName": "Дима",
+        "lastName": "Васильев",
+        "contacts": [{
+            "type": "skype",
+            "val": "testSkype",
+            "preferred": false
+        }],
+        "country": "'Бельгия",
+        "city": "Брюссель",
+        "tz": "GMT+01:00",
+        "roles": ["child"],
+        "familyId": "47RjDJbxhBuQ"
+    }]
+}
